@@ -1,0 +1,8 @@
+body,
+body * {
+    margin: 0; /* Visiems elementams panaikinamas atsistumimas jeigu iki tol jis buvo padarytas */
+    padding: 0; /* Visiems elementams panaikinamas issiputimas jeigu iki tol jis buvo padarytas */
+    vertical-align: top; /* Visose lentelese padaromas ligiavimas pagal virsu */
+    box-sizing: border-box; /* Sulygina skirtingu elementu dydzius atsizvialgiant i turini */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Priskiriamas fontas konkreciam blokui */
+}
