@@ -1,0 +1,7 @@
+/* Root yra pats teviskiausias css tagas
+var() yra vienintelis budas issaukt css kintamaji */
+:root {
+--gap: 20px;
+--big-gap: calc(2.5 * var(--gap));
+--main-color: #03A9F3;
+}
