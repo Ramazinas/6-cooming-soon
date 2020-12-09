@@ -1,0 +1,101 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.conteiner {
+/* display: inline-block;
+width: 100%; */
+
+    display: grid;
+    grid-template-columns: 1fr 200px 600px 200px 1fr;
+    padding: 40px 0;
+}
+        .conteiner > .short {
+            grid-column: 3/4;
+            background-color: aqua;
+
+        }
+        .conteiner > .long {
+            grid-column: 2/5;
+            background-color: pink;
+        }
+
+        .conteiner > .long.column {
+            display: grid;
+            grid-template-columns: 5fr 1fr 4fr;
+
+        }
+             .conteiner > .long.column > .left {
+                grid-column: 1/2;
+
+             }
+             .conteiner > .long.column > .right {
+                grid-column: 3/4;
+             }
+
+@media (max-width: 1100px) { 
+.conteiner {
+    grid-template-columns: 1fr 100px 600px 100px 1fr;
+}
+}
+@media (max-width: 900px) { 
+    .conteiner {
+        grid-template-columns: 1fr 600px 1fr;
+    }
+    
+
+    .conteiner > .short {
+        grid-column: 2/3;
+        background-color: aqua;
+
+    }
+    .conteiner > .long {
+        grid-column: 2/3;
+        background-color: pink;
+    }
+}
+@media (max-width: 640px) { 
+    .conteiner {
+        grid-template-columns: 20px 1fr 20px;
+    }
+    }
+@media (max-width: 640px) { 
+        .conteiner {
+            grid-template-columns: 20px 1fr 20px;
+        }
+        .conteiner > .long.column {
+            grid-template-columns: 1fr;
+
+        }
+             .conteiner > .long.column > .right {
+                grid-column: 1/2;
+             }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* senesnis budas su inline-block */
+             /* .conteiner > .long > .left {
+                 display: inline-block;
+                 width: 50%;
+                 float: left;
+                 background-color: lightgray;
+             }
+             .conteiner > .long > .right {
+                display: inline-block;
+                width: 50%;
+                float: right;
+                background-color: lightpink;
+
+            } */
