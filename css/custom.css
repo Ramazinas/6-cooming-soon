@@ -6,6 +6,10 @@ background-color: var(--main-color);
 /* hero */
 .hero.conteiner {
     padding-bottom: 20px;
+    background-image: url(../img/header.jpg);
+    /* background-repeat: none; padengia likusia dali jei neuztenka paveikslelio dydzio */
+    background-size: cover;
+    background-position: center bottom;
 }
 .hero > .short {
     text-align: center;
@@ -34,9 +38,11 @@ background-color: var(--main-color);
 }
 .hero .clock {
     margin-bottom: var(--big-gap);
+   
 }
 .hero .form {
     margin-bottom: var(--gap);
+    
 }
 
 /* main */
