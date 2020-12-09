@@ -13,12 +13,12 @@ width: 100%; */
 }
         .conteiner > .short {
             grid-column: 3/4;
-            background-color: aqua;
+           
 
         }
         .conteiner > .long {
             grid-column: 2/5;
-            background-color: pink;
+          
         }
 
         .conteiner > .long.column {

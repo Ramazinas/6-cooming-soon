@@ -39,6 +39,28 @@ background-color: var(--main-color);
     margin-bottom: var(--gap);
 }
 
+/* main */
+
+main h2 {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: var(--gap);
+}
+main p {
+    font-size: 15px;
+    line-height: 25px;
+    color: grey;
+    margin-bottom: var(--gap);
+}
+main p > a {
+    color: var(--buton-color);
+    text-decoration: none;
+}
+main p > a:hover {
+    text-decoration: underline;
+}
 
 /* footer */
 footer.conteiner {
